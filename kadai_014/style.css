@@ -2,6 +2,9 @@ h1 {
     letter-spacing: 1.2em;
     text-shadow: 2px 2px 3px gray;
     border-bottom: solid 3px rgb(115, 115, 114);
+    font-size: 2rem; /* 20px（２倍） */
+    font-family: "Josefin Sans", sans-serif;
+    /* google-fonts */
 }
 span.sky-blue {
     color: skyblue;
@@ -9,21 +12,13 @@ span.sky-blue {
 span.pinky {
     color: rgb(255, 192, 203);
 }
-.decoration {
-    font-family: "Arial", "Meiryo", sans-serif;
-}
-.google-fonts {
-    font-family: "Josefin Sans", sans-serif;
-}
 html {
     font-size: 20px;
 } /* ルート要素にremの基準となるサイズを指定 */
-h1 {
-    font-size: 2rem;
-} /* 20px（２倍） */
 
 #parent {
     text-align: center;
+    font-family: "Arial", "Meiryo", sans-serif;
 }
 #child {
     font-weight: bold;

@@ -5,6 +5,7 @@ h1 {
 }
 h2 {
     border-bottom: dotted 3px rgb(236, 122, 122);
+    font-size: 25px;
 }
 h2::first-letter {
     font-size: 25px;
@@ -47,7 +48,7 @@ main {
 }
 
 .contents img {
-    margin: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
     width: 70%;
 }
 footer {
